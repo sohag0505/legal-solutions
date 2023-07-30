@@ -1,0 +1,35 @@
+/* .image {
+  background-image: url(images/banner.png);
+} */
+
+.carousel-item {
+  height: 400px;
+  /* Set the height as needed */
+}
+
+.carousel-text {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 170px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.btn-circle {
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-text {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 55px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}
